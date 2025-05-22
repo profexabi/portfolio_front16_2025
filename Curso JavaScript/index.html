@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Curso JavaScript IFTS 16</title>
+
+    <!-- Enlazamos nuestra hoja de estilos CSS -->
+    <link rel="stylesheet" href="css/styles.css">
+
+    <!-- Enlazamos nuestro JavaScript 
+        - Con el atributo async, la carga de javascript se hara en paralelo con la carga del html
+        - Con el atributo defer, primero cargara el html del body, y luego se ejecutara el javascript 
+
+        - defer: Hace que el script se descargue en paralelo con el HTML, pero se EJECUTE solo despues de que toda la pagina terminara de cargarse. Con esto evitamos el  bloqueo de renderizado y aseguramos que todo el DOM este completamente cargado antes de ejecutar el script
+
+        - async: Carga el script en paralelo al resto de la pagina, pero no garantiza el orden de ejecucion si tenemos varios scripts que dependen el uno del otro
+    -->
+     <script defer src="js/javascript1.js"></script>
+</head>
+<body>
+    <h1>Curso JavaScript IFTS 16 frontend</h1>
+
+    <ul>
+        <li>Lista 1</li>
+        <li>Lista 2</li>
+        <li>Lista 3</li>
+    </ul>
+
+    <!-- Otra opcion valida para cargar javascript junto con el metodo de arriba, defer
+     <script src="js/javascript1.js"></script>
+    -->
+</body>
+</html>
