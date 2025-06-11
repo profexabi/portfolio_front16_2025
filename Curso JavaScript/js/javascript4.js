@@ -33,4 +33,5 @@ let nuevoTexto = texto.replace("densa", "copada!");
 console.log(nuevoTexto);
 
 
-// TO DO: Continuar viendo ejemplos de metodos de strings y arrays (continuar con JavaScript IV)
+// Metodos de strings: https://drive.google.com/drive/u/1/folders/1QJtNkPRSPVN4S2WCuwoeNcxrZbZkPH0y
+// Metodos de arrays: https://drive.google.com/drive/u/1/folders/1QJtNkPRSPVN4S2WCuwoeNcxrZbZkPH0y
