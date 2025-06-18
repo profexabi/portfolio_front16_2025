@@ -16,21 +16,40 @@
 
         - async: Carga el script en paralelo al resto de la pagina, pero no garantiza el orden de ejecucion si tenemos varios scripts que dependen el uno del otro
     -->
-     <script defer src="js/javascript5.js"></script>
+     <script defer src="js/javascript6.js"></script>
 </head>
 <body>
     <h1>Curso JavaScript IFTS 16 frontend</h1>
 
-    <!--
-    <ul>
-        <li>Lista 1</li>
-        <li>Lista 2</li>
-        <li>Lista 3</li>
-    </ul>
-    -->
+    <h1 id="titulo">Titulo principal</h1>
 
-    <!-- Otra opcion valida para cargar javascript junto con el metodo de arriba, defer
-     <script src="js/javascript1.js"></script>
-    -->
+    <p class="mensaje">Primer parrafo</p>
+    <p class="mensaje">Segundo parrafo</p>
+
+    <p id="parrafo">Soy un parrafo suelto!</p>
+
+    <input id="boton" type="button" value="Soy un boton!">
+
+    <div id="container"></div>
+    <div id="contenedor"></div>
+
+    <input type="button" value="hace click!" id="boton1">
+
+    <input type="text" name="texto" id="input1">
+
+    <hr>
+
+    <div id="padre">
+        <button id="hijo">Boton</button>
+    </div>
+
+    <hr>
+    <form id="formulario" action="/action_page.php">
+        <label for="fname">First name:</label><br>
+        <input type="text" id="fname" name="fname" value="John"><br>
+        <label for="lname">Last name:</label><br>
+        <input type="text" id="lname" name="lname" value="Doe"><br><br>
+        <input type="submit" value="Submit">
+      </form> 
 </body>
 </html>
